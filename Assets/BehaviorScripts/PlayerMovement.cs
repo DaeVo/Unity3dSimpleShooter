@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     int jumpcnt = 0; //counting how many jumps are already triggered before landing
 
-    [SerializeField] float ms = 7f; //default
+    [SerializeField] float ms;
 
     float horizontalInput;
     float verticalInput;
